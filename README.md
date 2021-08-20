@@ -15,25 +15,25 @@
 -------------------------
 
 ### 初期表示
-<img width="650" src="https://user-images.githubusercontent.com/59589496/130177822-5be043e7-cb86-46ed-b617-e1d4d116e473.png">  
+<img width="600" src="https://user-images.githubusercontent.com/59589496/130177822-5be043e7-cb86-46ed-b617-e1d4d116e473.png">  
 
 ### 商品登録
 バリデーション（必須チェック）  
-<img width="650" src="https://user-images.githubusercontent.com/59589496/130179894-3cb5e884-20c1-4b17-9369-79938f1521fc.png">  
+<img width="600" src="https://user-images.githubusercontent.com/59589496/130179894-3cb5e884-20c1-4b17-9369-79938f1521fc.png">  
 
 バリデーション（存在チェック）  
-<img width="650" src="https://user-images.githubusercontent.com/59589496/130180047-88b8ebbf-527e-492f-9be3-4d8913af0404.png">  
+<img width="600" src="https://user-images.githubusercontent.com/59589496/130180047-88b8ebbf-527e-492f-9be3-4d8913af0404.png">  
 
 登録処理  
-<img width="650" src="https://user-images.githubusercontent.com/59589496/130182301-152368a4-7b29-44c7-a2a9-f08ed100deca.png">  
+<img width="600" src="https://user-images.githubusercontent.com/59589496/130182301-152368a4-7b29-44c7-a2a9-f08ed100deca.png">  
 
 ### 商品削除
 バリデーション（存在チェック）  
-<img width="650" src="https://user-images.githubusercontent.com/59589496/130182559-5e776005-d70d-4427-a6f3-7d64271a98bd.png">  
-<img width="650" src="https://user-images.githubusercontent.com/59589496/130182673-9cb6d972-0687-42e1-9417-dbd5f6542038.png">  
+<img width="600" src="https://user-images.githubusercontent.com/59589496/130182559-5e776005-d70d-4427-a6f3-7d64271a98bd.png">  
+<img width="600" src="https://user-images.githubusercontent.com/59589496/130182673-9cb6d972-0687-42e1-9417-dbd5f6542038.png">  
 
 削除処理  
-<img width="650" src="https://user-images.githubusercontent.com/59589496/130183064-2cfb62e1-3fdd-4a0a-b21f-a7a35a17bc4b.png">  
+<img width="600" src="https://user-images.githubusercontent.com/59589496/130183064-2cfb62e1-3fdd-4a0a-b21f-a7a35a17bc4b.png">  
 
 フォルダ構成
 -------------------------
