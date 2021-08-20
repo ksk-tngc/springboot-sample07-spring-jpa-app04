@@ -16,7 +16,7 @@ public class ProductRegisterForm {
      * 商品名
      */
     @NotBlank(message = "商品名を入力してください") // 必須
-    @Size(max = 40, message = "40文字以内で入力してください") // 40文字まで
+    @Size(max = 40, message = "{1}文字以内で入力してください") // 40文字まで
     private String registerProductName;
 
     /**

@@ -30,7 +30,7 @@ public class HomeController {
     private final ProductsRepository productsRepository;
 
     /**
-     * トップページ。
+     * トップページを表示。
      */
     @GetMapping("/")
     public String index(Model model, @ModelAttribute ProductRegisterForm productRegisterForm,
@@ -93,7 +93,7 @@ public class HomeController {
             // フォームの値を格納
             final Long productId = productDeletionForm.getDeletionProductId(); // 商品ID
 
-            // 存在チェック
+            // 存在チェック・商品削除
             if (productsRepository.existsById(productId)) { // 存在する場合
                 productsRepository.deleteById(productId); // 商品IDをキーに削除
                 // 商品ID xx を削除しました。
@@ -108,7 +108,7 @@ public class HomeController {
             // フォームの値を格納
             final String productName = productDeletionForm.getDeletionProductName(); // 商品名
 
-            // 存在チェック
+            // 存在チェック・商品削除
             if (productsRepository.existsByName(productName)) { // 存在する場合
                 productsRepository.deleteByName(productName); // 商品名をキーに削除
                 // "商品名" を削除しました。

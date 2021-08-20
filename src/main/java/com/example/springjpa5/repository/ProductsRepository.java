@@ -12,7 +12,9 @@ import org.springframework.transaction.annotation.Transactional;
 public interface ProductsRepository extends JpaRepository<Product, Long> {
 
     /**
-     * 商品名で存在チェック。
+     * 商品名で存在チェックするクエリメソッド。
+     * <p>Spring Data JPA によりメソッド名からクエリが自動生成される。
+     * 
      * @param name 商品名
      * @return 商品名に該当するデータが存在する場合 true
      */
@@ -21,6 +23,7 @@ public interface ProductsRepository extends JpaRepository<Product, Long> {
     /**
      * 商品名で削除するクエリメソッド。
      * <p>Spring Data JPA によりメソッド名からクエリが自動生成される。
+     * 
      * @param name 商品名
      * @return 削除した件数
      */

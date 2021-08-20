@@ -21,22 +21,22 @@ public class Product {
     /**
      * 商品ID
      */
-    @Id
-    @GeneratedValue
+    @Id // 主キー
+    @GeneratedValue // ID自動生成
     private Long id;
 
     /**
      * 商品名
      */
     @NotBlank
-    @NotNull
+    @NotNull // 必須
     @Size(max = 40)
     private String name;
 
     /**
      * 価格
      */
-    @NotNull
+    @NotNull // 必須
     private Integer price;
 
 }
