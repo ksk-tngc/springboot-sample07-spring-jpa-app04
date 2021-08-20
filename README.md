@@ -4,7 +4,7 @@
 以下の要素を含む簡単な Spring Boot アプリケーションです。
 
 * Spring Data JPA でメソッド名からクエリを自動生成
-  - `existsByName`, `deleteByName()`
+  - `existsByName()`, `deleteByName()`
 * `RedirectAttributes` でリダイレクト先にパラメータを送信（Flash Scope）
 * バリデーション実装
 * `CommandLineRunner` を実装したコンポーネントで、Spring Boot 起動時に  
